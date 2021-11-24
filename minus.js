@@ -8,9 +8,12 @@ function minusfunc (selector)
         {
             var minus = item.name;
             var cl = item.className;
+            var name_id = 'input'+minus;
             if (minus != null && minus != '') {
                 if (cl == 'minus')
                 {
+                    var val = parseInt(document.getElementById(name_id).value);
+                    document.getElementById(name_id).value = val - 1;
                     $.ajax
                     ({
                         type: 'POST',

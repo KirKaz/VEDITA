@@ -8,9 +8,12 @@ function plusfunc (selector)
         {
             var plus = item.name;
             var cl = item.className;
+            var name_id = 'input'+plus;
             if (plus != null && plus != '') {
                 if (cl == 'plus')
                 {
+                    var val = parseInt(document.getElementById(name_id).value);
+                    document.getElementById(name_id).value = val + 1;
                     $.ajax
                     ({
                         type: 'POST',
@@ -19,6 +22,7 @@ function plusfunc (selector)
                             do_plus: 'do_plus',
                             id: plus
                         },
+
                     });
                 }
 
