@@ -1,0 +1,11 @@
+INSERT INTO public.products (id, product_id, product_name, product_price, product_article, product_quantity, date_create) VALUES (1, 1, 'black chair', 4999, 'черный стул', 0, '2021-11-23 08:40:32.848387');
+INSERT INTO public.products (id, product_id, product_name, product_price, product_article, product_quantity, date_create) VALUES (2, 2, 'white chair', 4999, 'белый стул', 0, '2021-11-23 08:40:32.881126');
+INSERT INTO public.products (id, product_id, product_name, product_price, product_article, product_quantity, date_create) VALUES (3, 3, 'black table', 6999, 'черный стол', 0, '2021-11-23 08:40:32.934049');
+INSERT INTO public.products (id, product_id, product_name, product_price, product_article, product_quantity, date_create) VALUES (4, 4, 'white table', 6999, 'белый стол', 0, '2021-11-23 08:40:32.974433');
+INSERT INTO public.products (id, product_id, product_name, product_price, product_article, product_quantity, date_create) VALUES (5, 5, 'wood table', 9999, 'деревянный стол', 0, '2021-11-23 08:40:33.033655');
+INSERT INTO public.products (id, product_id, product_name, product_price, product_article, product_quantity, date_create) VALUES (6, 6, 'stone table', 19999, 'каменый стол', 0, '2021-11-23 08:40:33.084465');
+INSERT INTO public.products (id, product_id, product_name, product_price, product_article, product_quantity, date_create) VALUES (7, 7, 'fabric sofa', 27999, 'тканевый диван', 0, '2021-11-23 08:40:33.135763');
+INSERT INTO public.products (id, product_id, product_name, product_price, product_article, product_quantity, date_create) VALUES (8, 8, 'leather sofa', 56999, 'кожаный диван', 0, '2021-11-23 08:40:33.183099');
+INSERT INTO public.products (id, product_id, product_name, product_price, product_article, product_quantity, date_create) VALUES (9, 9, 'fabric armchair', 12999, 'тканевое кресло', 0, '2021-11-23 08:40:33.234641');
+INSERT INTO public.products (id, product_id, product_name, product_price, product_article, product_quantity, date_create) VALUES (10, 10, 'leather armchair', 24999, 'кожаное кресло', 0, '2021-11-23 08:40:33.291127');
+INSERT INTO public.products (id, product_id, product_name, product_price, product_article, product_quantity, date_create) VALUES (11, 11, 'carpet', 99999, 'ковер', 0, '2021-11-23 08:40:33.346018');
